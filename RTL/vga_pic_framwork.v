@@ -1,7 +1,7 @@
 `timescale 1ns/1ps
 // for testing the FSM effect
 
-module vga_pic(
+module vga_pic_framwork(
   input  wire        vga_clk,   // VGA working clock, 25MHz
   input  wire        sys_rst_n, // Reset signal. Low level is effective
   input  wire [9:0]  pix_x,     // X coordinate of current pixel
@@ -39,3 +39,4 @@ module vga_pic(
   end
 
 endmodule
+
